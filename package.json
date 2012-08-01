@@ -1,17 +1,16 @@
 {
-  "dependencies": [
-      "addon-kit", 
-      "api-utils"
-  ], 
   "id": "jid1-LSHV456F7wAw9g",
   "fullName": "Download Cleaner",
-  "version": "0.9.1",
+  "description": "Removes all entries from the ominous download history that has been there since Firefox 13. Removal can be set to occur on exit or in regular intervals.",
+  "author": "Daniel Betz",
+  "license": "Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0)",
+  "version": "1.0",
   "preferences":
   [
     {
       "name": "clearOnExit",
       "title": "Clear downloads on exit",
-      "description": "Clear download list when closing Firefox.",
+      "description": "Delete download history when closing Firefox.",
       "type": "bool",
       "value": false
     },
@@ -28,13 +27,10 @@
       "description": "Interval for clearing the list. Only used when interval clearing is active. Unit is minutes.",
       "type": "integer",
       "value": 2
-    },
-    {
-      "name": "leaveInHistory",
-      "title": "Leave downloads in history",
-      "description": "Only removes downloads from the \"Downloads\" view but leaves them in the history",
-      "type": "bool",
-      "value": false
     }
-  ]
+  ],
+  "dependencies": [
+      "addon-kit", 
+      "api-utils"
+  ] 
 }
