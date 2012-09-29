@@ -6,7 +6,7 @@
   "author": "Daniel Betz",
   "homepage": "http://www.daniel-betz.com",
   "license": "Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0)",
-  "version": "1.1",
+  "version": "1.2",
   "icon": "Icon48.png",
   "icon64": "Icon64.png",
   "preferences":
@@ -24,6 +24,13 @@
       "description": "Delete download history when closing Firefox.",
       "type": "bool",
       "value": false
+    },
+    {
+      "name": "clearNow",
+      "title": "Clear downloads now",
+      "label": "Clear now",
+      "description": "Perform an on-demand clearing of the download history. Please note that this may take a long time during which your browser will be non-responsive.",
+      "type": "control"
     }
   ],
   "dependencies": [
