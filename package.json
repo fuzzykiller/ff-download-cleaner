@@ -2,11 +2,11 @@
   "id": "jid1-LSHV456F7wAw9g",
   "name": "ff-download-cleaner",
   "fullName": "Download Cleaner",
-  "description": "Removes all entries from the ominous download history that has been there since Firefox 12. Removal can be set to occur on exit or instantly. Icons are courtesy of August Interactive and Smashing Magazine.",
+  "description": "Automatically removes entries from the new download history.",
   "author": "Daniel Betz",
   "homepage": "http://www.daniel-betz.com",
   "license": "Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0)",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "icon": "Icon48.png",
   "icon64": "Icon64.png",
   "preferences":

@@ -1,2 +1,3 @@
 syntax: glob
-download-cleaner.xpi
+ff-download-cleaner.xpi
+.idea
