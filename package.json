@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+      "addon-kit", 
+      "api-utils"
+  ], 
+  "id": "jid1-LSHV456F7wAw9g",
+  "fullName": "Download Cleaner",
+  "version": "0.9.1",
+  "preferences":
+  [
+    {
+      "name": "clearOnExit",
+      "title": "Clear downloads on exit",
+      "description": "Clear download list when closing Firefox.",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "name": "clearOnInterval",
+      "title": "Clear downloads at intervals",
+      "description": "Clear download list at regular intervals while Firefox is running.",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "name": "clearInterval",
+      "title": "Time interval",
+      "description": "Interval for clearing the list. Only used when interval clearing is active. Unit is minutes.",
+      "type": "integer",
+      "value": 2
+    },
+    {
+      "name": "leaveInHistory",
+      "title": "Leave downloads in history",
+      "description": "Only removes downloads from the \"Downloads\" view but leaves them in the history",
+      "type": "bool",
+      "value": false
+    }
+  ]
+}
