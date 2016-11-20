@@ -16,15 +16,15 @@
   [
     {
       "name": "clearOnDownload",
-      "title": "Clear downloads instantly",
-      "description": "Remove downloads from history instantly, effectively disabling the download history.",
+      "title": "Clear downloads after completion",
+      "description": "Remove downloads from history after completion, effectively disabling the download history.",
       "type": "bool",
       "value": true
     },
     {
       "name": "clearDelay",
       "title": "Delay (seconds) before removing download",
-      "description": "Downloads will be removed after the set time. Applies only to instant clearing.",
+      "description": "Downloads will be removed after the set time. Applies only to removal after completion.",
       "type": "integer",
       "value": 5
     },
