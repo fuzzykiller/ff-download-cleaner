@@ -4,10 +4,13 @@
   "title": "Download Cleaner",
   "description": "Automatically removes entries from the new download history.",
   "author": "Daniel Betz",
-  "homepage": "http://www.daniel-betz.com",
+  "homepage": "https://github.com/fuzzykiller/ff-download-cleaner",
   "license": "Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0)",
-  "version": "1.5.1",
-  "icon": "Icon48.png",
+  "version": "1.6.0",
+  "icon": {
+    "48": "Icon48.png",
+    "64": "Icon64.png"
+  },
   "main": "lib/main.js",
   "preferences":
   [
@@ -41,7 +44,10 @@
     }
   ],
   "dependencies": [
-      "addon-kit", 
+      "addon-kit",
       "api-utils"
-  ] 
+  ],
+  "permissions": {
+    "multiprocess": true
+  }
 }
