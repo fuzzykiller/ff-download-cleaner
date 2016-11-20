@@ -1,5 +1,7 @@
 # ff-download-cleaner
-This Firefox extension removes entries from the new Downloads history, either instantly after finishing a download or when Firefox is closing. By default, downloads will be removed instantly.
+This Firefox extension removes entries from the new Downloads history, either after finishing a download or when Firefox is closing. By default, downloads will be removed five seconds after finishing.
+
+This extension supports e10s.
 
 ## Building
 Use the [Firefox Add-on SDK](https://developer.mozilla.org/Add-ons/SDK) to create an installable `.xpi` file from this source code.
@@ -21,7 +23,7 @@ Automatic removal only affects files downloaded while the add-on is active. To r
 All builds currently hosted on Mozilla Add-ons were created using the legacy `cfx` tool.
 
 ## Future
-I plan to adapt this add-on to the eventual removal of XPCOM. However, it is unclear at this time whether this is feasible.
+Development on a new version using [Web Extensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) has started. However, it won’t support removing downloads when Firefox is closing.
 
 ## Further reading
 * [`nsINavHistoryService`](https://developer.mozilla.org/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsINavHistoryService)
