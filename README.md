@@ -23,7 +23,7 @@ Automatic removal only affects files downloaded while the add-on is active. To r
 All builds currently hosted on Mozilla Add-ons were created using the legacy `cfx` tool.
 
 ## Future
-Development on a new version using [Web Extensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) has started. However, it won’t support removing downloads when Firefox is closing.
+Development on a new version using [Web Extensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) has started. The project is located [here](https://github.com/fuzzykiller/download-cleaner-lite).
 
 ## Further reading
 * [`nsINavHistoryService`](https://developer.mozilla.org/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsINavHistoryService)
